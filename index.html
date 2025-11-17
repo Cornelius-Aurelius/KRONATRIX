@@ -4,42 +4,76 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Kronatrix Marketing – Elite Digital Growth Agency</title>
-    <meta name="description" content="Kronatrix Marketing: Elite digital marketing, branding, social media growth & business acceleration. Get your FREE marketing starter folder today." />
-    <meta name="author" content="Kronatrix Marketing" />
-    <meta name="keywords" content="marketing agency, branding, digital marketing, social media growth, business growth, website design, kronatrix" />
+    <title>Kronatrix Marketing — Engineered by Cornelius Aurelius</title>
+
+    <!-- SEO AUTHORITY BOOST -->
+    <meta name="description"
+          content="Kronatrix Marketing — a next-generation neon-branded marketing agency built by Cornelius Aurelius. Offering elite branding, AI-powered growth systems, funnels, ads, and free AI tools including OmniScale ASI PRIME (2026), Proof Is King AI, and OmniCapital Connect.">
+    <meta name="author" content="Cornelius Aurelius">
+    <meta name="keywords"
+          content="Kronatrix Marketing, Cornelius Aurelius, OmniScale ASI PRIME Edition, Proof Is King AI, OmniCapital Connect, marketing agency, AI marketing, branding, funnels, business scaling, Spencer Aurelius">
 
     <style>
+        :root {
+            --neon: #00faff;
+            --neon-soft: #8dfdff;
+            --dark: #000000;
+            --dark2: #000913;
+            --dark3: #00121e;
+        }
+
         body {
             margin: 0;
-            font-family: 'Arial', sans-serif;
-            background: #000000;
-            color: #e5f1ff;
+            background: var(--dark);
+            color: #eaffff;
+            font-family: Arial, sans-serif;
             overflow-x: hidden;
         }
 
-        /* HEADER */
+        /* GLOBAL MOBILE OPTIMIZATION */
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* HERO */
         header {
-            padding: 40px 20px;
+            width: 100%;
+            height: 430px;
+            background: url("Kronatrix Marketing (Facebook Cover).png") center/cover no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
             text-align: center;
-            background: linear-gradient(180deg, #000000 0%, #001a33 100%);
         }
 
-        .logo {
-            max-width: 220px;
-            margin-bottom: 20px;
+        header::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,1));
         }
 
-        h1 {
-            font-size: 2.8rem;
-            color: #0affff;
-            margin: 0;
+        .hero {
+            position: relative;
+            z-index: 10;
+            padding: 20px;
+        }
+
+        .hero h1 {
+            font-size: 3.4rem;
+            color: var(--neon);
+            text-shadow: 0 0 25px var(--neon);
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 10px;
         }
 
         .tagline {
-            font-size: 1.2rem;
-            color: #b8e8ff;
-            margin-top: 10px;
+            font-size: 1.25rem;
+            color: var(--neon-soft);
+            text-shadow: 0 0 10px var(--neon);
         }
 
         /* SECTIONS */
@@ -49,161 +83,230 @@
         }
 
         h2 {
-            font-size: 2rem;
-            color: #0affff;
-            margin-bottom: 20px;
+            font-size: 2.2rem;
+            color: var(--neon);
+            text-shadow: 0 0 12px var(--neon);
+            margin-bottom: 18px;
         }
 
         p {
-            color: #d4eeff;
+            max-width: 850px;
+            margin: 0 auto 20px;
+            color: #defcff;
+            line-height: 1.7;
             font-size: 1.15rem;
-            line-height: 1.6;
-            max-width: 800px;
-            margin: 0 auto 20px auto;
         }
 
-        /* BUTTONS */
+        /* BUTTON */
         .btn {
             display: inline-block;
-            padding: 14px 28px;
-            background: #0affff;
+            padding: 15px 35px;
+            background: var(--neon);
             color: #000;
-            font-size: 1.2rem;
-            border-radius: 8px;
-            margin-top: 20px;
             text-decoration: none;
+            font-size: 1.2rem;
             font-weight: bold;
-            transition: 0.2s;
+            border-radius: 10px;
+            box-shadow: 0 0 20px var(--neon);
+            transition: 0.25s;
+            margin-top: 20px;
         }
 
         .btn:hover {
-            background: #63ffff;
-            transform: scale(1.05);
+            transform: scale(1.07);
+            box-shadow: 0 0 30px var(--neon);
         }
 
-        /* SERVICES */
-        .services-grid {
+        /* SERVICES GRID */
+        .services {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
             gap: 25px;
             margin-top: 40px;
         }
 
-        .service-box {
-            background: #001726;
+        .box {
+            background: var(--dark3);
+            border: 1px solid #00faff44;
             padding: 25px;
-            border-radius: 12px;
-            border: 1px solid #0affff33;
-            transition: 0.25s;
+            border-radius: 14px;
+            box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+            transition: 0.3s;
         }
 
-        .service-box:hover {
+        .box:hover {
             transform: translateY(-8px);
-            border-color: #0affff;
+            border-color: var(--neon);
+            box-shadow: 0 0 35px rgba(0, 255, 255, 0.35);
         }
 
-        /* SOCIAL ICON LIST */
-        .social-links a {
-            display: block;
-            margin: 10px 0;
-            color: #0affff;
-            font-size: 1.15rem;
-            text-decoration: none;
-            font-weight: bold;
+        /* AI ARSENAL GRID */
+        .ai-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 25px;
+            margin-top: 35px;
         }
 
-        .social-links a:hover {
-            text-decoration: underline;
-        }
-
+        /* FOOTER */
         footer {
+            background: var(--dark2);
             padding: 40px 20px;
             text-align: center;
-            background: #000814;
-            color: #88c7ff;
+            color: #a4f2ff;
         }
 
         .email {
-            font-size: 1.2rem;
-            color: #0affff;
+            font-size: 1.3rem;
+            color: var(--neon);
             font-weight: bold;
+            margin-bottom: 15px;
         }
     </style>
 </head>
 
 <body>
 
+<!-- HERO -->
 <header>
-    <img src="Kronatrix Marketing Logo.png" class="logo" alt="Kronatrix Logo" />
-    <h1>KRONATRIX MARKETING</h1>
-    <p class="tagline">Elite Digital Growth. Brand Engineering. High-Impact Marketing Execution.</p>
+    <div class="hero">
+        <h1>KRONATRIX</h1>
+        <p class="tagline">Elite Neon Branding • AI Marketing Systems • Growth Engines</p>
+    </div>
 </header>
 
-<section id="about">
-    <h2>Who We Are</h2>
+<!-- ABOUT -->
+<section>
+    <h2>The New Age of Marketing Has Arrived</h2>
     <p>
-        Kronatrix Marketing is a results-driven digital agency engineered for speed, precision, and brand domination.
-        We help businesses build authority, maximize visibility, and convert traffic into loyal customers.
+        Kronatrix Marketing is a next-generation branding and growth agency engineered by
+        <b>Cornelius Aurelius</b> — a name being built across the internet with elite tools, books,
+        storytelling systems, and AI engines.
+        <br><br>
+        We combine high-end neon design, future-focused strategy, and AI-enhanced automation to build
+        brands that stand out instantly.
     </p>
 </section>
 
-<section id="services">
-    <h2>Our Elite Services</h2>
+<!-- WHY BRANDS CHOOSE KRONATRIX -->
+<section>
+    <h2>Why Brands Choose Kronatrix</h2>
+    <p>
+        • Futuristic black + neon blue identity  
+        • AI-based content & strategy systems  
+        • Professional-grade landing pages & funnels  
+        • Founder-led authority ecosystem  
+        • Zero-fluff execution, clean design, and high-trust frameworks  
+    </p>
+</section>
 
-    <div class="services-grid">
-        <div class="service-box">
-            <h3>Brand Strategy</h3>
-            <p>Professional branding systems that elevate your business above competitors.</p>
+<!-- SERVICES -->
+<section>
+    <h2>Our Core Services</h2>
+
+    <div class="services">
+        <div class="box">
+            <h3>Brand Identity Systems</h3>
+            <p>Bold neon visuals engineered for long-term authority.</p>
         </div>
 
-        <div class="service-box">
-            <h3>Social Media Growth</h3>
-            <p>Instagram, TikTok, LinkedIn — content strategy, daily posting, and growth scaling.</p>
+        <div class="box">
+            <h3>AI-Driven Social Media</h3>
+            <p>Content engines, frameworks, scripts & automation.</p>
         </div>
 
-        <div class="service-box">
-            <h3>Website & Funnel Design</h3>
-            <p>High-conversion landing pages and funnels optimised for sales & client acquisition.</p>
+        <div class="box">
+            <h3>Funnels & Websites</h3>
+            <p>Mobile-first conversion architecture.</p>
         </div>
 
-        <div class="service-box">
-            <h3>Paid Ads Management</h3>
-            <p>Facebook, Instagram & Google Ad campaigns engineered for maximum ROI.</p>
+        <div class="box">
+            <h3>Paid Advertising</h3>
+            <p>Facebook / Instagram / Google scaling built for ROI.</p>
         </div>
     </div>
 </section>
 
-<section id="free-folder">
-    <h2>🔥 Free Marketing Starter Folder</h2>
-    <p>Download your fully-loaded marketing resources folder — 100% FREE.</p>
+<!-- THE AI ARSENAL -->
+<section>
+    <h2>🔥 The Kronatrix AI Arsenal (FREE)</h2>
+    <p>
+        Want to become your own marketing team?  
+        Use our full AI arsenal — <b>100% free</b>.
+    </p>
 
-    <a class="btn" href="https://drive.google.com/drive/u/0/folders/1w98mT7Z9UUGtO1Sl9OKie81ywRKsarFg" target="_blank">
-        Download Free Marketing Pack
+    <div class="ai-grid">
+        <a class="box" target="_blank"
+           href="https://chatgpt.com/g/g-69169ca457ec8191a691243f6d1d28db-proof-is-king-money-proof-engine">
+            <h3>Proof Is King — AI</h3>
+            <p>Master persuasion, influence & branding psychology.</p>
+        </a>
+
+        <a class="box" target="_blank"
+           href="https://chatgpt.com/g/g-69080718b09c81918c4f623cda6ec5c5-omnicapital-connect">
+            <h3>OmniCapital Connect</h3>
+            <p>Get investor-ready. Perfect your pitch deck.</p>
+        </a>
+
+        <a class="box" target="_blank"
+           href="https://chatgpt.com/g/g-69168445cb848191ab0e004405e56aa0-why-do-i-pick-the-wrong-men-ai">
+            <h3>Why Do I Pick The Wrong Men AI</h3>
+            <p>Elite relationship psychology analysis.</p>
+        </a>
+
+        <a class="box" target="_blank"
+           href="https://chatgpt.com/g/g-69053ce947ec8191b9ad1abc3fca8f8a-omniscale-asi-prime-edition-2026">
+            <h3>OmniScale ASI PRIME (2026)</h3>
+            <p>
+                Business-scaling AI architect that audits & grows companies 
+                138× faster. Free tool for DIY founders.
+            </p>
+        </a>
+    </div>
+</section>
+
+<!-- PROOF IS KING BOOK -->
+<section>
+    <h2>📘 PROOF IS KING — The Book</h2>
+    <p>
+        The marketing psychology blueprint by Cornelius Aurelius.  
+        Learn credibility, proof, influence & positioning.
+    </p>
+    <a class="btn"
+       href="https://chatgpt.com/g/g-69169ca457ec8191a691243f6d1d28db-proof-is-king-money-proof-engine"
+       target="_blank">Explore the Book + AI</a>
+</section>
+
+<!-- SPENCER AURELIUS UNIVERSE -->
+<section>
+    <h2>🎭 Spencer Aurelius Universe</h2>
+    <p>
+        Spencer Aurelius is the official Kronatrix mascot — a multi-version character used
+        to create infinite content, story arcs, and brand worldbuilding.
+    </p>
+    <a class="btn" href="https://cornelius-aurelius.github.io/SPENCER-AURELIUS/" target="_blank">
+        Explore the Art Universe
     </a>
 </section>
 
-<section id="social">
-    <h2>Connect With Us</h2>
-
-    <div class="social-links">
-        <a href="https://www.instagram.com/kronatrix/?utm_source=chatgpt.com" target="_blank">Instagram – @kronatrix</a>
-        <a href="https://www.instagram.com/spenceraurelius/?utm_source=chatgpt.com" target="_blank">Instagram – @spenceraurelius</a>
-        <a href="https://uk.linkedin.com/in/spencer-aurelius-404805325?utm_source=chatgpt.com" target="_blank">LinkedIn – Spencer Aurelius</a>
-    </div>
+<!-- FREE FOLDER -->
+<section>
+    <h2>🔥 Free Marketing Starter Pack</h2>
+    <p>Download templates, frameworks & strategy docs.</p>
+    <a class="btn"
+       href="https://drive.google.com/drive/u/0/folders/1w98mT7Z9UUGtO1Sl9OKie81ywRKsarFg"
+       target="_blank">Download Free Pack</a>
 </section>
 
-<section id="contact">
-    <h2>Work With Kronatrix</h2>
-    <p>Ready to scale your brand, dominate your market, and grow faster than ever?</p>
-    <p>Contact us today:</p>
-
+<!-- CONTACT -->
+<section>
+    <h2>Contact Kronatrix</h2>
     <p class="email">boostyouronlinepresencetoday@gmail.com</p>
-
-    <a class="btn" href="mailto:boostyouronlinepresencetoday@gmail.com">Email Us Now</a>
+    <a class="btn" href="mailto:boostyouronlinepresencetoday@gmail.com">Email Us</a>
 </section>
 
 <footer>
-    © 2025 Kronatrix Marketing – All rights reserved.
+    © 2025 KRONATRIX — Engineered by Cornelius Aurelius
 </footer>
 
 </body>
