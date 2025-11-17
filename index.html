@@ -1,312 +1,330 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Kronatrix Marketing — Engineered by Cornelius Aurelius</title>
+<title>KRONATRIX — Quantum Marketing Engine • Powered by Cornelius Aurelius</title>
 
-    <!-- SEO AUTHORITY BOOST -->
-    <meta name="description"
-          content="Kronatrix Marketing — a next-generation neon-branded marketing agency built by Cornelius Aurelius. Offering elite branding, AI-powered growth systems, funnels, ads, and free AI tools including OmniScale ASI PRIME (2026), Proof Is King AI, and OmniCapital Connect.">
-    <meta name="author" content="Cornelius Aurelius">
-    <meta name="keywords"
-          content="Kronatrix Marketing, Cornelius Aurelius, OmniScale ASI PRIME Edition, Proof Is King AI, OmniCapital Connect, marketing agency, AI marketing, branding, funnels, business scaling, Spencer Aurelius">
+<!-- SEO AUTHORITY -->
+<meta name="description" content="KRONATRIX: A £100M-grade neon-quantum AI marketing agency built by Cornelius Aurelius. Featuring OmniScale ASI PRIME (2026), Proof Is King AI, OmniCapital Connect, and the Spencer Aurelius Multiverse.">
+<meta name="author" content="Cornelius Aurelius">
+<meta name="keywords" content="Kronatrix, marketing agency, AI marketing, Cornelius Aurelius, OmniScale ASI PRIME, Proof Is King, OmniCapital Connect, Spencer Aurelius Multiverse">
 
-    <style>
-        :root {
-            --neon: #00faff;
-            --neon-soft: #8dfdff;
-            --dark: #000000;
-            --dark2: #000913;
-            --dark3: #00121e;
-        }
+<style>
 
-        body {
-            margin: 0;
-            background: var(--dark);
-            color: #eaffff;
-            font-family: Arial, sans-serif;
-            overflow-x: hidden;
-        }
+/* GLOBAL */
+:root {
+    --neon: #00faff;
+    --neon2: #82faff;
+    --neon3: #00b8d6;
+    --dark: #000000;
+    --dark2: #000914;
+    --dark3: #00141f;
+    --fade: rgba(0,255,255,0.07);
+}
 
-        /* GLOBAL MOBILE OPTIMIZATION */
-        img {
-            max-width: 100%;
-            height: auto;
-        }
+body {
+    margin: 0;
+    background: var(--dark);
+    color: var(--neon2);
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
 
-        /* HERO */
-        header {
-            width: 100%;
-            height: 430px;
-            background: url("Kronatrix Marketing (Facebook Cover).png") center/cover no-repeat;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            position: relative;
-            text-align: center;
-        }
+/* FORMULA BACKGROUND (Quantum Intelligence Field) */
+body::before {
+    content: "∫Ω∞  Σ dX   ∇Φ   δU∞   Γμν   Aexist   Jquant   Ωαβ   Φlimits";
+    position: fixed;
+    top: -20%;
+    left: -10%;
+    width: 200%;
+    height: 200%;
+    color: rgba(0,255,255,0.05);
+    font-size: 4rem;
+    white-space: nowrap;
+    animation: drift 120s linear infinite;
+    pointer-events: none;
+    z-index: -3;
+}
 
-        header::after {
-            content: "";
-            position: absolute;
-            inset: 0;
-            background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,1));
-        }
+@keyframes drift {
+    from { transform: translate3d(0,0,0) rotate(0deg); }
+    to { transform: translate3d(-20%, 20%, 0) rotate(360deg); }
+}
 
-        .hero {
-            position: relative;
-            z-index: 10;
-            padding: 20px;
-        }
+/* HERO */
+header {
+    height: 470px;
+    background: url("Kronatrix Marketing (Facebook Cover).png") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
 
-        .hero h1 {
-            font-size: 3.4rem;
-            color: var(--neon);
-            text-shadow: 0 0 25px var(--neon);
-            text-transform: uppercase;
-            letter-spacing: 3px;
-            margin-bottom: 10px;
-        }
+header::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, rgba(0,0,0,0), #000);
+}
 
-        .tagline {
-            font-size: 1.25rem;
-            color: var(--neon-soft);
-            text-shadow: 0 0 10px var(--neon);
-        }
+.hero {
+    position: relative;
+    z-index: 10;
+    padding: 20px;
+}
 
-        /* SECTIONS */
-        section {
-            padding: 60px 20px;
-            text-align: center;
-        }
+.hero h1 {
+    font-size: 3.8rem;
+    color: var(--neon);
+    text-shadow: 0 0 40px var(--neon), 0 0 80px var(--neon3);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
 
-        h2 {
-            font-size: 2.2rem;
-            color: var(--neon);
-            text-shadow: 0 0 12px var(--neon);
-            margin-bottom: 18px;
-        }
+.tagline {
+    font-size: 1.3rem;
+    margin-top: 10px;
+    color: var(--neon2);
+    text-shadow: 0 0 14px var(--neon3);
+}
 
-        p {
-            max-width: 850px;
-            margin: 0 auto 20px;
-            color: #defcff;
-            line-height: 1.7;
-            font-size: 1.15rem;
-        }
+/* SECTION BASICS */
+section {
+    padding: 75px 20px;
+    text-align: center;
+}
 
-        /* BUTTON */
-        .btn {
-            display: inline-block;
-            padding: 15px 35px;
-            background: var(--neon);
-            color: #000;
-            text-decoration: none;
-            font-size: 1.2rem;
-            font-weight: bold;
-            border-radius: 10px;
-            box-shadow: 0 0 20px var(--neon);
-            transition: 0.25s;
-            margin-top: 20px;
-        }
+h2 {
+    font-size: 2.4rem;
+    color: var(--neon);
+    text-shadow: 0 0 20px var(--neon);
+}
 
-        .btn:hover {
-            transform: scale(1.07);
-            box-shadow: 0 0 30px var(--neon);
-        }
+p {
+    max-width: 900px;
+    margin: 0 auto 20px;
+    line-height: 1.7;
+    color: #dfffff;
+}
 
-        /* SERVICES GRID */
-        .services {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-            gap: 25px;
-            margin-top: 40px;
-        }
+/* BUTTON */
+.btn {
+    display: inline-block;
+    padding: 15px 35px;
+    background: var(--neon);
+    color: #000;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 0 25px var(--neon);
+    transition: 0.25s;
+}
+.btn:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 40px var(--neon);
+}
 
-        .box {
-            background: var(--dark3);
-            border: 1px solid #00faff44;
-            padding: 25px;
-            border-radius: 14px;
-            box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
-            transition: 0.3s;
-        }
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
+    gap: 28px;
+    margin-top: 40px;
+}
 
-        .box:hover {
-            transform: translateY(-8px);
-            border-color: var(--neon);
-            box-shadow: 0 0 35px rgba(0, 255, 255, 0.35);
-        }
+.box {
+    background: var(--dark3);
+    border: 1px solid var(--neon2);
+    border-radius: 14px;
+    padding: 26px;
+    transition: 0.3s;
+    box-shadow: 0 0 20px rgba(0,255,255,0.18);
+}
+.box:hover {
+    transform: translateY(-8px);
+    border-color: var(--neon);
+    box-shadow: 0 0 40px rgba(0,255,255,0.35);
+}
 
-        /* AI ARSENAL GRID */
-        .ai-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-            gap: 25px;
-            margin-top: 35px;
-        }
+/* QUANTUM RIBBON (Spencer Multiverse) */
+.ribbon-wrapper {
+    overflow: hidden;
+    width: 100%;
+    background: linear-gradient(to bottom, var(--dark), var(--dark3));
+    padding: 40px 0;
+    margin-top: 40px;
+    border-top: 2px solid var(--neon3);
+    border-bottom: 2px solid var(--neon3);
+    box-shadow: 0 0 40px rgba(0,255,255,0.25);
+}
 
-        /* FOOTER */
-        footer {
-            background: var(--dark2);
-            padding: 40px 20px;
-            text-align: center;
-            color: #a4f2ff;
-        }
+.ribbon {
+    display: flex;
+    gap: 40px;
+    animation: scroll 35s linear infinite;
+}
 
-        .email {
-            font-size: 1.3rem;
-            color: var(--neon);
-            font-weight: bold;
-            margin-bottom: 15px;
-        }
-    </style>
+.ribbon img {
+    width: 220px;
+    height: 220px;
+    border-radius: 16px;
+    border: 1px solid var(--neon2);
+    box-shadow: 0 0 30px rgba(0,255,255,0.4);
+    transition: 0.2s;
+}
+.ribbon img:hover {
+    transform: scale(1.12) rotate(2deg);
+    box-shadow: 0 0 50px rgba(0,255,255,0.7);
+}
+
+@keyframes scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+}
+
+/* AI SYSTEMS */
+.ai-card {
+    background: var(--dark3);
+    padding: 28px;
+    border-radius: 16px;
+    border: 1px solid var(--neon);
+    box-shadow: 0 0 30px rgba(0,255,255,0.25);
+    transition: 0.3s;
+}
+.ai-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 55px rgba(0,255,255,0.45);
+    border-color: var(--neon2);
+}
+
+footer {
+    background: var(--dark2);
+    padding: 45px 20px;
+    color: var(--neon2);
+}
+
+.email {
+    color: var(--neon);
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+</style>
 </head>
 
 <body>
 
 <!-- HERO -->
 <header>
-    <div class="hero">
-        <h1>KRONATRIX</h1>
-        <p class="tagline">Elite Neon Branding • AI Marketing Systems • Growth Engines</p>
-    </div>
+  <div class="hero">
+    <h1>KRONATRIX</h1>
+    <p class="tagline">Neon-Quantum Marketing Engine of the Future</p>
+  </div>
 </header>
 
-<!-- ABOUT -->
 <section>
-    <h2>The New Age of Marketing Has Arrived</h2>
-    <p>
-        Kronatrix Marketing is a next-generation branding and growth agency engineered by
-        <b>Cornelius Aurelius</b> — a name being built across the internet with elite tools, books,
-        storytelling systems, and AI engines.
-        <br><br>
-        We combine high-end neon design, future-focused strategy, and AI-enhanced automation to build
-        brands that stand out instantly.
-    </p>
+  <h2>The £100M Neon-Quantum Marketing Agency</h2>
+  <p>
+    KRONATRIX is a hyper-advanced marketing engine engineered by <b>Cornelius Aurelius</b>.  
+    A fusion of neon AI intelligence, cosmic mathematics, animated multiverse avatars, and elite brand strategy.
+    <br><br>
+    This is not an agency.  
+    It is a <b>Quantum Intelligence Marketing System</b>.
+  </p>
 </section>
 
-<!-- WHY BRANDS CHOOSE KRONATRIX -->
+<!-- QUANTUM SPENCER RIBBON -->
 <section>
-    <h2>Why Brands Choose Kronatrix</h2>
-    <p>
-        • Futuristic black + neon blue identity  
-        • AI-based content & strategy systems  
-        • Professional-grade landing pages & funnels  
-        • Founder-led authority ecosystem  
-        • Zero-fluff execution, clean design, and high-trust frameworks  
-    </p>
-</section>
+  <h2>🌀 Spencer Aurelius Multiverse — Infinite Quantum Ribbon</h2>
+  <p>The holographic mascot system powering the Kronatrix storytelling universe.</p>
 
-<!-- SERVICES -->
-<section>
-    <h2>Our Core Services</h2>
+  <div class="ribbon-wrapper">
+    <div class="ribbon">
 
-    <div class="services">
-        <div class="box">
-            <h3>Brand Identity Systems</h3>
-            <p>Bold neon visuals engineered for long-term authority.</p>
-        </div>
+      <!-- 40 frames (10 × 4 loops) -->
+      <!-- Loop 1 -->
+      <img src="1.png"><img src="2.png"><img src="3.png"><img src="4.png">
+      <img src="5.png"><img src="6.png"><img src="7.png"><img src="8.png">
+      <img src="9.png"><img src="10.png">
 
-        <div class="box">
-            <h3>AI-Driven Social Media</h3>
-            <p>Content engines, frameworks, scripts & automation.</p>
-        </div>
+      <!-- Loop 2 -->
+      <img src="1.png"><img src="2.png"><img src="3.png"><img src="4.png">
+      <img src="5.png"><img src="6.png"><img src="7.png"><img src="8.png">
+      <img src="9.png"><img src="10.png">
 
-        <div class="box">
-            <h3>Funnels & Websites</h3>
-            <p>Mobile-first conversion architecture.</p>
-        </div>
+      <!-- Loop 3 -->
+      <img src="1.png"><img src="2.png"><img src="3.png"><img src="4.png">
+      <img src="5.png"><img src="6.png"><img src="7.png"><img src="8.png">
+      <img src="9.png"><img src="10.png">
 
-        <div class="box">
-            <h3>Paid Advertising</h3>
-            <p>Facebook / Instagram / Google scaling built for ROI.</p>
-        </div>
+      <!-- Loop 4 -->
+      <img src="1.png"><img src="2.png"><img src="3.png"><img src="4.png">
+      <img src="5.png"><img src="6.png"><img src="7.png"><img src="8.png">
+      <img src="9.png"><img src="10.png">
+
     </div>
+  </div>
 </section>
 
-<!-- THE AI ARSENAL -->
 <section>
-    <h2>🔥 The Kronatrix AI Arsenal (FREE)</h2>
-    <p>
-        Want to become your own marketing team?  
-        Use our full AI arsenal — <b>100% free</b>.
-    </p>
+  <h2>AI Systems • Omni-Intelligence Layer</h2>
+  <p>Power your brand using elite AI systems engineered by Cornelius Aurelius.</p>
 
-    <div class="ai-grid">
-        <a class="box" target="_blank"
-           href="https://chatgpt.com/g/g-69169ca457ec8191a691243f6d1d28db-proof-is-king-money-proof-engine">
-            <h3>Proof Is King — AI</h3>
-            <p>Master persuasion, influence & branding psychology.</p>
-        </a>
+  <div class="grid">
 
-        <a class="box" target="_blank"
-           href="https://chatgpt.com/g/g-69080718b09c81918c4f623cda6ec5c5-omnicapital-connect">
-            <h3>OmniCapital Connect</h3>
-            <p>Get investor-ready. Perfect your pitch deck.</p>
-        </a>
-
-        <a class="box" target="_blank"
-           href="https://chatgpt.com/g/g-69168445cb848191ab0e004405e56aa0-why-do-i-pick-the-wrong-men-ai">
-            <h3>Why Do I Pick The Wrong Men AI</h3>
-            <p>Elite relationship psychology analysis.</p>
-        </a>
-
-        <a class="box" target="_blank"
-           href="https://chatgpt.com/g/g-69053ce947ec8191b9ad1abc3fca8f8a-omniscale-asi-prime-edition-2026">
-            <h3>OmniScale ASI PRIME (2026)</h3>
-            <p>
-                Business-scaling AI architect that audits & grows companies 
-                138× faster. Free tool for DIY founders.
-            </p>
-        </a>
-    </div>
-</section>
-
-<!-- PROOF IS KING BOOK -->
-<section>
-    <h2>📘 PROOF IS KING — The Book</h2>
-    <p>
-        The marketing psychology blueprint by Cornelius Aurelius.  
-        Learn credibility, proof, influence & positioning.
-    </p>
-    <a class="btn"
-       href="https://chatgpt.com/g/g-69169ca457ec8191a691243f6d1d28db-proof-is-king-money-proof-engine"
-       target="_blank">Explore the Book + AI</a>
-</section>
-
-<!-- SPENCER AURELIUS UNIVERSE -->
-<section>
-    <h2>🎭 Spencer Aurelius Universe</h2>
-    <p>
-        Spencer Aurelius is the official Kronatrix mascot — a multi-version character used
-        to create infinite content, story arcs, and brand worldbuilding.
-    </p>
-    <a class="btn" href="https://cornelius-aurelius.github.io/SPENCER-AURELIUS/" target="_blank">
-        Explore the Art Universe
+    <a class="ai-card" href="https://chatgpt.com/g/g-69053ce947ec8191b9ad1abc3fca8f8a-omniscale-asi-prime-edition-2026" target="_blank">
+      <h3>OmniScale ASI PRIME (2026)</h3>
+      <p>The hyper-intelligent business-scaling model that diagnoses, fixes, and grows companies with quantum precision.</p>
     </a>
+
+    <a class="ai-card" href="https://chatgpt.com/g/g-69169ca457ec8191a691243f6d1d28db-proof-is-king-money-proof-engine" target="_blank">
+      <h3>Proof Is King — AI</h3>
+      <p>The persuasion, credibility, influence & trust-building engine.</p>
+    </a>
+
+    <a class="ai-card" href="https://chatgpt.com/g/g-69080718b09c81918c4f623cda6ec5c5-omnicapital-connect" target="_blank">
+      <h3>OmniCapital Connect</h3>
+      <p>Investor-ready intelligence for founders who want funding-level clarity.</p>
+    </a>
+
+  </div>
 </section>
 
-<!-- FREE FOLDER -->
 <section>
-    <h2>🔥 Free Marketing Starter Pack</h2>
-    <p>Download templates, frameworks & strategy docs.</p>
-    <a class="btn"
-       href="https://drive.google.com/drive/u/0/folders/1w98mT7Z9UUGtO1Sl9OKie81ywRKsarFg"
-       target="_blank">Download Free Pack</a>
+  <h2>The Formula Engine Behind Kronatrix</h2>
+  <p>
+    KRONATRIX is built on the mathematical doctrine of the  
+    <b>Universal Intelligence Function (𝓤∞)</b> —  
+    the foundational architecture that binds structure, symmetry, entropy, and causality  
+    into a coherent marketing intelligence system.
+  </p>
 </section>
 
-<!-- CONTACT -->
 <section>
-    <h2>Contact Kronatrix</h2>
-    <p class="email">boostyouronlinepresencetoday@gmail.com</p>
-    <a class="btn" href="mailto:boostyouronlinepresencetoday@gmail.com">Email Us</a>
+  <h2>📘 Proof Is King — The Book</h2>
+  <p>The authority blueprint authored by Cornelius Aurelius.</p>
+  <a class="btn" href="https://chatgpt.com/g/g-69169ca457ec8191a691243f6d1d28db-proof-is-king-money-proof-engine" target="_blank">Explore the AI Edition</a>
+</section>
+
+<section>
+  <h2>📂 Neon Knowledge Vault (Free)</h2>
+  <p>Brand frameworks, templates, content systems & strategy docs.</p>
+  <a class="btn" href="https://drive.google.com/drive/u/0/folders/1w98mT7Z9UUGtO1Sl9OKie81ywRKsarFg" target="_blank">Download Free Pack</a>
+</section>
+
+<section>
+  <h2>Contact KRONATRIX</h2>
+  <p class="email">boostyouronlinepresencetoday@gmail.com</p>
+  <a class="btn" href="mailto:boostyouronlinepresencetoday@gmail.com">Email Us</a>
 </section>
 
 <footer>
-    © 2025 KRONATRIX — Engineered by Cornelius Aurelius
+  © 2025 KRONATRIX — Engineered by Cornelius Aurelius  
 </footer>
 
 </body>
